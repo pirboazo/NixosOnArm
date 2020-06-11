@@ -52,4 +52,6 @@
     extraGroups = [ "wheel" "networkmanager" ];
   };
 
+environment.systemPackages = with pkgs; [ wget bat vim lshw pciutils banner usbutils ];
+
 }
